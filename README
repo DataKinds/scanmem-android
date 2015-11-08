@@ -1,0 +1,11 @@
+https://github.com/scanmem/scanmem
+
+HOW DID I DO THIS?
+It was actually pretty easy - I just used the android NDK toolchain to compile libreadline (which was easy) and scanmem (which was a huge 
+pain and I had to edit some of the source) for ARM.
+
+HOW DO I INSTALL THIS?
+Copy the contents of bin/ into your device's /system/bin, and copy the contents of lib/ into /system/lib. Just note: to run scanmem, root 
+is required to be able to modify other processes' memory. If someone would like to release an app to simplify the installing process, 
+feel completely free to (assuming the original scanmem license permits it). I'd quite like to know about it though, so just shoot me a 
+message at http://reddit.com/u/crazym4n or @Aearnus
