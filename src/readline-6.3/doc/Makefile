@@ -22,7 +22,7 @@ topdir = ..
 srcdir = .
 
 
-prefix = /home/tyler/packages/android-arm-ndk-toolchain/sysroot
+prefix = /home/tyler/packages/android-arm-toolchain/sysroot
 
 datarootdir = ${prefix}/share
 
@@ -49,7 +49,7 @@ RM = rm -f
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 
-BUILD_DIR = /home/tyler/packages/readline-6.3
+BUILD_DIR = /home/tyler/packages/scanmem-android/src/readline-6.3
 TEXINPUTDIR = $(srcdir)
 
 MAKEINFO    = LANGUAGE= makeinfo

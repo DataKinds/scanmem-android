@@ -32,7 +32,7 @@ datarootdir = ${prefix}/share
 srcdir = .
 VPATH = ..
 topdir = ..
-BUILD_DIR = /home/tyler/packages/readline-6.3
+BUILD_DIR = /home/tyler/packages/scanmem-android/src/readline-6.3
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
@@ -49,10 +49,10 @@ LN = ln
 
 SHELL = /bin/sh
 
-host_os = linux-androideabi
+host_os = linux-gnu
 host_vendor = unknown
 
-prefix = /home/tyler/packages/android-arm-ndk-toolchain/sysroot
+prefix = /home/tyler/packages/android-arm-toolchain/sysroot
 exec_prefix = ${prefix}
 includedir = ${prefix}/include
 bindir = ${exec_prefix}/bin

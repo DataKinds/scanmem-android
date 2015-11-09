@@ -31,7 +31,7 @@ PACKAGE_TARNAME = readline
 srcdir = .
 
 top_srcdir = .
-BUILD_DIR = /home/tyler/packages/readline-6.3
+BUILD_DIR = /home/tyler/packages/scanmem-android/src/readline-6.3
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
@@ -50,7 +50,7 @@ PURIFY =
 
 SHELL = /bin/sh
 
-prefix = /home/tyler/packages/android-arm-ndk-toolchain/sysroot
+prefix = /home/tyler/packages/android-arm-toolchain/sysroot
 exec_prefix = ${prefix}
 
 datarootdir = ${prefix}/share

@@ -21,7 +21,7 @@ RL_LIBRARY_VERSION = 6.3
 SHELL = /bin/sh
 RM = rm -f
 
-prefix = /home/tyler/packages/android-arm-ndk-toolchain/sysroot
+prefix = /home/tyler/packages/android-arm-toolchain/sysroot
 exec_prefix = ${prefix}
 
 datarootdir = ${prefix}/share
@@ -32,7 +32,7 @@ datadir = ${datarootdir}
 
 top_srcdir = ..
 #BUILD_DIR = .
-BUILD_DIR = /home/tyler/packages/readline-6.3
+BUILD_DIR = /home/tyler/packages/scanmem-android/src/readline-6.3
 installdir = $(datadir)/readline
 
 INSTALL = /usr/bin/install -c
